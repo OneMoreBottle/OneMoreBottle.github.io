@@ -6,9 +6,11 @@
     <body>
         {% include nav.html %}
 
-            {{ content }}
+        <div class="container">
+          {{ content }}
+          {% include footer.html %}
+        </div>
 
-        {% include footer.html %}
         {% include js.html %}
     </body>
 </html>

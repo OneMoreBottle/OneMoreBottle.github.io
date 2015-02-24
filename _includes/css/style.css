@@ -22,7 +22,8 @@
 	} 
 
 body { 
-	background: #ffffff; 
+  background-image: url('/theme/img/background-1.png'), url('/theme/img/background-2.png');
+  background-repeat: repeat-x, repeat;
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
@@ -96,6 +97,11 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
+.container {
+  background-color: rgba(236, 246, 255, 0.86);
+  border-radius: 20px;
+}
+
 .navbar {
 	min-height: 70px;
 	padding-top: 10px;
