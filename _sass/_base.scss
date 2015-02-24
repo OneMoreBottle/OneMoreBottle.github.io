@@ -19,6 +19,8 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
+	background-image: url("../assets/img/background-1.png"), url("../assets/img/background-2.png");
+	background-repeat: repeat-x, repeat;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
